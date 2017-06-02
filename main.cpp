@@ -13,6 +13,7 @@ int do_magic(const int x)
 int main()
 {
   std::cout << do_magic(2) << '\n';
-  //Forgot to test do_magic(42)
+  std::cout << do_magic(42) << '\n';
+  return 0;
 }
 
